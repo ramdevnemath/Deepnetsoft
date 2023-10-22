@@ -55,6 +55,7 @@ function Products() {
       <NavBar />
       <div className='flex'>
         <div>
+          <div>Filter By Category :</div>
           <div onClick={() => setSelectedCategoryId('All')} style={{ cursor: 'pointer', color: 'blue' }}>All products</div>
           {categories
             .filter((category) => !category.parentId)

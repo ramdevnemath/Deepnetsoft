@@ -11,7 +11,7 @@ import productRouter from './routes/productRouter.js'
 const app = express()
 
 const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://deepnetsoft-0lta.onrender.com",
     methods: "GET, POST, PUT, PATCH, DELETE",
     credentials: true
 }
